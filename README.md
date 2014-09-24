@@ -8,7 +8,7 @@ Technical TO-DO:
 <!-- 1- HTML/CSS
 	a) 2 divs - one for current image, one for hidden loading image
 2- Attract/cover image for front of slideshow -->
-<!-- 
+<!--
 3- Load in an image
 
 4- slide cover out and slide in first image on click -->

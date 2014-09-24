@@ -1,0 +1,49 @@
+.header {
+    font-size: 20px;
+}
+.container.active {
+    position: absolute;
+    width: 2000px;
+    height: 3000px;
+    left: 2000px;
+    right: 1000px;
+    top: 500px;
+    bottom: 500px;
+    font-size: 50px;
+
+}
+.attract {
+    background-repeat: no-repeat;
+    background-image: url(../img/climb.jpg);
+    background-position: center;
+    background-size: 90%;
+    height: 1500px;
+    width: 1000px;
+    left: 2000px;
+    right: 1000px;
+    top: 500px;
+    bottom: 500px;
+    font-size: 50px;
+    font-family: arial;
+    text-align: center;
+    z-index: 6;
+}
+.load {
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: 750px;
+    background-position: center;
+    color: white;
+    visibility: hidden;
+    height: 1500px;
+    position: absolute;
+    width: 1000px;
+    left: 2000px;
+    right: 1000px;
+    top: 500px;
+    bottom: 500px;
+}
+.load.appear {
+     visibility: visible;
+     z-index: 10;
+}
